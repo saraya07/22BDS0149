@@ -1,0 +1,456 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: greenyellow; /* Adjust background color as needed */
+    padding: 1rem 2rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust logo size as needed */
+    height: 50px;
+  }
+  
+  .brand-name {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase; /* Optional: Capitalize brand name */
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; /* Adjust link color as needed */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+  }
+  
+  nav a.active {
+    background-color: #ddd; /* Adjust active link color as needed */
+  }
+  
+  /* Add media queries for responsive design (optional) */
+  @media (max-width: 768px) {
+    nav {
+      display: block; /* Change nav layout for smaller screens */
+    }
+    nav li {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+
+.main-logo{
+    position : absolute;
+    
+    height: 500px;
+    width: 100%;
+
+    
+}
+
+.slogan{
+    position:absolute;
+    color:white;
+    top:400px;
+
+    font-size: 60px;
+    font-style: oblique;
+}
+
+
+.slogan-2{
+    position: absolute;
+    top:580px;
+    width:100%;
+    height: 80px;
+    background-color: #ffff00;
+    text-align: center;
+}
+
+.idealogy-para{
+    position:absolute;
+    top:650px;
+    height: 300px;
+    background-color: lightgreen;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.about-section{
+    position: absolute;
+    top:950px;
+    background-color: greenyellow;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+
+.about-divs{
+    position:absolute;
+    top:1000px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    width: 100%;
+    
+
+}
+
+.box1{
+    height:250px;
+    width:300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+    background-color: lightcoral;
+}
+
+.box2{
+    height:250px;
+    width:300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+    background-color: lightgreen;
+}
+
+.box3{
+    height:250px;
+    width:300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+    background-color: lightseagreen;
+    
+}
+
+.box4{
+    height:250px;
+    width:300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;    
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+    background-color: lightblue;
+}
+
+
+.aboutus_heading{
+    text-align:center;
+    font-family:"'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    color:blanchedalmond;
+    background-color: black;
+    height: 100px;
+    font-size:x-large;
+    border: 2px solid salmon;
+    
+}
+
+.aboutus_heading_text{
+    text-align: center;
+    margin-top:20px;
+}
+
+.aboutus_problem{
+    background-color:grey;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.heading_problem{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+    font-size: 45px;
+    text-decoration-line: underline;
+
+    
+}
+
+.advice_1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.mission{
+    background-color:grey;
+    
+    height: 400px;
+    border: 2px solid black;
+}
+.heading_mission{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+    font-size: 45px;
+    text-decoration-line: underline;
+}
+
+.advice_2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.about_creators{
+    
+    background-color:grey;
+    
+    height: 400px;
+    border: 2px solid black;
+}
+
+.about_creators_heading{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+    font-size: 45px;
+    text-decoration-line: underline;
+}
+
+
+.about_creators_para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 900;   
+}
+
+
+
+
+
+body.module
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+  header.module
+  {
+    background-color: #00cc00; 
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+  }
+  main .module
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  div.module-box1 {
+    width: 1300px;
+    height: 300px;
+    background-color:rgb(233, 137, 137);
+    border-color:black;
+    border-style: solid; 
+    margin: 100px 100px 10px;
+    font-size: 25px;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  div.module-box2 {
+    width: 1300px;
+    height: 300px;
+    background-color:rgb(137, 233, 151);
+    border-color:black;
+    border-style: solid; 
+    font-size: 25px;
+    margin: 100px 100px 10px;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  div.module-box3 {
+    width: 1300px;
+    height: 300px;
+    background-color:rgb(137, 214, 233);
+    border-color:black;
+    font-size: 25px;
+    border-style: solid; 
+    margin: 100px 100px 10px;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+  .gupta {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333030;
+    background-image: linear-gradient(135deg, black 25%, grey, white);
+  }
+  
+  .sysreq {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #b628d6;
+  }
+  
+  .uull {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dg {
+    font-size: 1.2rem;
+    padding: 2rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #b628d6;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .dg:hover {
+    background-color: #731ee2;
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+
+
+
+  .navbar {
+    background-color: green;
+    color:white;
+    text-align: center;
+}
+
+span {
+    color:blue;
+    text-decoration: underline;
+}
+.contact-us {
+    height:600px;
+    background-image: url("callimg.jpg");
+    background-size: cover;
+    color:red;
+    display:flex;
+    flex-direction:column;
+    border:5px solid black;
+    justify-content:center ;
+    align-items: center;
+
+}
+
+.contact-us h1 {
+    font-size:3rem;
+    font-weight:900;
+}
+
+.contact-us p {
+    font-size:2rem;
+    font-weight: 600;
+}
+
+.contact-through {
+    background-color: green;
+    color: white;
+    text-align: center;
+   
+    font-size: 1.4rem;
+}
+
+.contact-info {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.saket {
+    background-color: pink;
+    border:5px solid black;
+    margin:10px;
+}
+
+.jay {
+    background-color: lightgreen;
+    border:5px solid black;
+    margin:10px;
+}
+
+.arjun {
+    background-color: bisque;
+    border:5px solid black;
+    margin:10px;
+}
+
+.devang {
+    background-color: lightblue;
+    border:5px solid black;
+    margin:10px;
+}
